@@ -1,0 +1,45 @@
+/*********** Stripping Browser Styling ***********/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0; padding: 0; border: 0; outline: 0;
+	font-weight: inherit; font-style: inherit;
+	font-size: 100%; font-family: inherit; }
+
+* {	margin: 0; padding: 0; }
+
+/*********** Global Styles ***********/
+
+body { font-family: Arial, Helvetica, sans-serif; font-size: 12px; background: #fff; color: #000; }
+.cleaner { clear: both; height: 0; overflow: hidden; }
+.divider { height: 1px; width: 720px; margin: 0; border-bottom: 1px dotted #777;; overflow: hidden; margin: 18px 0; }
+input { font-family: Arial, Helvetica, sans-serif; }
+
+h1 { font-size: 24px; color: #000; font-weight: bold; text-align: center; letter-spacing: 1px; display: block; }
+h2 { font-size: 30px; color: #aaa; font-weight: bold; padding-bottom: 8px; text-transform: uppercase; letter-spacing: 1px; }
+h3 { font-size: 14px; color: #999; font-weight: bold; text-align: center; }
+h4 { font-weight: lighter; }
+p { font-size: 14px; color: #000; line-height: 22px; padding-bottom: 8px; }
+
+/*********** Main Structure ***********/
+
+.wrapper { width: 100%; padding-top: 35px; }
+.content-wrap { margin: 0 auto; width: 960px; position: relative; }
+.main-content { float: right; width: 690px; padding-left: 30px; border-left: 1px dotted #777; }
+.sidebar { float: left; width: 210px; }
+
+.status { display:none; }
+
+.technical-skills ul { padding-top: 16px; list-style: none; }
+.technical-skills ul li { display:block; float:left; padding:0 0 6px 20px; width:300px; }
+
+.portfolio ul { list-style: none; float: left; }
+.portfolio ul li { display: block; float: left; padding: 15px; }
+
+.mug-shot { text-align: center; }
+.item-copy { display: block !important; }
+.item-title { color: #000; text-decoration: none; padding: 20px 0 10px 0; display: block; font-size: 15px; }
+.contact-details { padding: 14px 5px 6px; line-height: 170%; }
+.footer, .print-save, .social-media { display: none; }

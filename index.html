@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from www.pixelbuffet.com/demos/pinstripe-cv-resume/dark-pinstripe/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jan 2020 02:23:54 GMT -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Phil Morrow"/>
+    <meta name="language" content="EN"/>
+    
+    <title>
+    Dark Pinstripe CV / Resume Preview - Themeforest - Philmo
+    </title>
+    
+    <script type="text/javascript" src="../../../../code.jquery.com/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dimensions.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-1.3.1.js"></script>
+    <script type="text/javascript" src="js/cufon-yui.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+    <script type="text/javascript" src="js/Harabara_700.font.js"></script>
+    
+    <script type="text/javascript">
+	jQuery().ready(function(){
+		// simple accordion
+		jQuery('#list1a').accordion({
+			autoheight: false
+		});
+		jQuery('#list1b').accordion({
+			autoheight: false
+		});
+
+	});
+	$(document).ready(function() {
+		$("a[rel=portfolio_items]").fancybox({
+					'titlePosition'	: 'over',
+					'transitionIn'	: 'elastic',
+					'transitionOut'	: 'elastic'
+				});
+		$("a#enlargeImage").fancybox({
+					'titleShow'		: false,
+					'transitionIn'	: 'elastic',
+					'transitionOut'	: 'elastic'
+				});
+	});
+	$(document).ready(function(){ 
+		$(".email").each(
+			function (){ 
+				$(this).html($(this).html().replace(/ at /, "@").replace(/ dot /, "."));
+				$(this).attr('href', "mailto:" + $(this).html());
+			});
+		});
+	</script>
+   
+    <link rel="stylesheet" media="screen" title="main" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" media="print" type="text/css" href="css/print.css" />
+
+</head>
+
+<body>
+
+	<div class="wrapper">
+    
+    <div class="content-wrap">
+    
+    <p class="status available">Current Status: 'Available'</p> <!-- Change 'class=" status available"' to 'class=" status employed"' to switch status -->
+    
+    <!-- Main Content Starts HERE -->
+    <div class="main-content">
+    	
+        <div class="welcome">
+            <h2>Hello</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo quam, sed consectetur felis. Suspendisse sit amet metus viverra magna placerat consequat non vel tellus. Integer dolor leo, facilisis non sollicitudin ut, viverra ac ligula. Proin sed erat tincidunt quam blandit tempor elementum id tortor. Mauris et massa sed arcu pellentesque auctor.</p>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <div class="technical-skills">
+            <h2>Technical Skills</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo quam, sed consectetur felis. Suspendisse sit amet metus viverra magna placerat consequat non vel tellus. Integer dolor leo.</p>
+            <ul>
+                <li>
+                	<p>xHTML / CSS <span>8 years</span></p>
+              </li>
+                <li>
+                	<p>PHP / MySQL <span>6 years</span></p>
+              </li>
+                <li>
+                	<p>JavaScript / jQuery <span>5 years</span></p>
+              </li>
+                <li>
+                	<p>Adobe Creative Suite <span>8 years</span></p>
+              </li>
+                <li>
+                	<p>Flash / Actionscript <span>2 years</span></p>
+                </li>
+            </ul>
+            <div class="cleaner"></div>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <div class="work-experience">
+            <h2>Work Experience</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo quam, sed consectetur felis.</p>
+            <div class="accordion-wrap" id="list1a">
+            <div class="item-wrap">
+              <a href="#" class="item-title"><strong>Senior Designer</strong> - Global Full-Service Agency <span>Jun 2008 - Present</span></a>
+              <div class="item-copy">
+                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum, quam id blandit semper, augue turpis fermentum felis, in venenatis lectus tortor eget mi. Donec ac magna orci. Aliquam elementum magna id elit faucibus ut rhoncus augue scelerisque. </p>
+                    <p>Quisque sit amet viverra erat. Sed tellus turpis, dictum in pharetra sit amet, interdum eu est. Nam felis est, placerat at dapibus fringilla, sodales ac odio. Cras eros felis, hendrerit in sodales eu, blandit ut lectus. Duis adipiscing velit at arcu lacinia non molestie augue varius.</p>
+                </div>
+            </div>
+            <div class="item-wrap">
+              <a href="#" class="item-title"><strong>Junior Designer</strong> - Two-Bit Agency <span>Feb 2006 - Jun 2008</span></a>
+              <div class="item-copy">
+                    <p>Phasellus nec aliquet mi. Ut eu sem lorem. Vestibulum in nunc ut ipsum porttitor interdum. Aliquam convallis commodo sapien sed dictum. Phasellus auctor diam et quam interdum vel placerat eros euismod.</p>
+                    <p>Vivamus scelerisque turpis a justo faucibus vel bibendum sem accumsan. Ut quis eros fermentum felis aliquam rutrum tempor ultricies mi. Donec malesuada, sem at hendrerit consectetur, est sem cursus metus, non fringilla libero purus id mauris. Vivamus faucibus massa quis est ultricies porta.</p>
+                </div>
+            </div>
+            <div class="item-wrap">
+              <a href="#" class="item-title"><strong>Content Editor</strong> - Generic Web Company <span>Mar 2003 - Jan 2006</span></a>
+              <div class="item-copy">
+                    <p>Cras tristique felis vitae risus tempus iaculis. Integer pharetra lorem eget erat blandit molestie cursus purus imperdiet. Duis iaculis, felis id hendrerit rutrum, eros urna feugiat ipsum, ut venenatis purus arcu nec velit. Morbi ultrices nisi ante, non dapibus nibh. Donec rhoncus feugiat dolor a accumsan. Fusce eu mauris eros. Mauris eu metus eu tortor volutpat cursus vitae sed justo. Proin iaculis varius ipsum non posuere. Ut non nisi mi, a accumsan nulla. Nam vitae urna dolor, vel tincidunt metus. Morbi faucibus lacus quis nisi sodales pellentesque. </p>
+                </div>
+            </div>
+            <div class="cleaner"></div>
+            </div>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <div class="portfolio">
+            <h2>Portfolio</h2>
+            <p>Integer dolor leo, facilisis non sollicitudin ut, viverra ac ligula. Proin sed erat tincidunt quam blandit tempor elementum id tortor. Mauris et massa sed arcu pellentesque auctor.</p>
+            <div class="portfolioCarousel">
+            	<div class="carouselWrapper">
+                <ul>
+                    <li><a href="images/portfolio/item1.jpg" rel="portfolio_items" title="Enter a caption here for item 1"></a>
+                    <img src="images/portfolio/item1-thumb.jpg" alt="Project Name" /></li>
+                    <li><a href="images/portfolio/item2.jpg" rel="portfolio_items" title="Enter a caption here for item 2"></a>
+                    <img src="images/portfolio/item2-thumb.jpg" alt="Project Name" /></li>
+                    <li><a href="images/portfolio/item3.jpg" rel="portfolio_items" title="Enter a caption here for item 3"></a>
+                    <img src="images/portfolio/item3-thumb.jpg" alt="Project Name" /></li>
+                    <li><a href="images/portfolio/item4.jpg" rel="portfolio_items" title="Enter a caption here for item 4"></a>
+                    <img src="images/portfolio/item4-thumb.jpg" alt="Project Name" /></li>
+                    <li><a href="images/portfolio/item5.jpg" rel="portfolio_items" title="Enter a caption here for item 5"></a>
+                    <img src="images/portfolio/item5-thumb.jpg" alt="Project Name" /></li>
+                    <li><a href="images/portfolio/item6.jpg" rel="portfolio_items" title="Enter a caption here for item 6"></a>
+                    <img src="images/portfolio/item6-thumb.jpg" alt="Project Name" /></li>
+                    <li><a href="images/portfolio/item7.jpg" rel="portfolio_items" title="Enter a caption here for item 7"></a>
+                    <img src="images/portfolio/item7-thumb.jpg" alt="Project Name" /></li>
+                    <li><a href="images/portfolio/item8.jpg" rel="portfolio_items" title="Enter a caption here for item 8"></a>
+                    <img src="images/portfolio/item8-thumb.jpg" alt="Project Name" /></li>
+                    <li><a href="images/portfolio/item9.jpg" rel="portfolio_items" title="Enter a caption here for item 9"></a>
+                    <img src="images/portfolio/item9-thumb.jpg" alt="Project Name" /></li>
+                </ul>
+            	</div>
+            </div>
+            <div class="cleaner"></div>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <div class="education">
+            <h2>Education</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo quam, sed consectetur felis.</p>
+             <div class="accordion-wrap" id="list1b">
+            <div class="item-wrap">
+              <a href="#" class="item-title"><strong>Ninja Skills (Masters Hons)</strong> - University of KickAss <span>Sep 2002 - Sep 2003</span></a>
+              <div class="item-copy">
+                    <p>Phasellus nec aliquet mi. Ut eu sem lorem. Vestibulum in nunc ut ipsum porttitor interdum. Aliquam convallis commodo sapien sed dictum. Phasellus auctor diam et quam interdum vel placerat eros euismod.</p>
+                    <p>Vivamus scelerisque turpis a justo faucibus vel bibendum sem accumsan. Ut quis eros fermentum felis aliquam rutrum tempor ultricies mi. Donec malesuada, sem at hendrerit consectetur, est sem cursus metus, non fringilla libero purus id mauris. Vivamus faucibus massa quis est ultricies porta.</p>
+                </div>
+            </div>
+            <div class="item-wrap">
+              <a href="#" class="item-title"><strong>Design &amp; Archery</strong> - Combined Course, College <span>Sep 1999 - Jul 2002</span></a>
+              <div class="item-copy">
+                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi ut mauris in massa vestibulum mattis in et nunc. Nam molestie tristique massa. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer ultrices suscipit facilisis. Sed lacinia velit eu risus placerat lobortis.</p>
+                </div>
+            </div>
+            <div class="item-wrap">
+              <a href="#" class="item-title"><strong>High School</strong> - Made Up Town <span>Sep 1997 - Jul 1999</span></a>
+              <div class="item-copy">
+                    <p>Cras tristique felis vitae risus tempus iaculis. Integer pharetra lorem eget erat blandit molestie cursus purus imperdiet. Duis iaculis, felis id hendrerit rutrum, eros urna feugiat ipsum, ut venenatis purus arcu nec velit. Morbi ultrices nisi ante, non dapibus nibh. Donec rhoncus feugiat dolor a accumsan. Donec erat elit, rhoncus ut aliquet eget, gravida convallis neque. </p>
+                </div>
+            </div>
+            <div class="cleaner"></div>
+            </div>
+        </div>
+        
+        <div class="footer">
+        	<ul>
+            	<li class="valid-html"><a href="http://validator.w3.org/check?uri=referer">Valid xHTML</a></li>
+        		<li class="to-top"><a href="#">Back to Top</a></li>
+        	</ul>
+        <div class="cleaner"></div>
+        </div>
+        
+    </div>
+    <!-- Main Content Ends HERE -->
+    
+    <!-- SideBar Starts HERE -->
+    <div class="sidebar">
+    
+    	<div class="mug-shot">
+        	<a id="enlargeImage" href="images/this-is-me.jpg" title="click to enlarge"></a>
+            <img src="images/this-is-me-small.jpg" alt="Joseph Bloggs - My Face!" />
+            <h1>Joseph Bloggs</h1>
+            <h3>Web Designer / Developer</h3>
+        </div>
+        
+        <div class="contact-details">
+            <a class="email">you at your-domain dot com</a>
+            <address>
+            Street Name<br />
+            Town / City<br />
+            State / County<br />
+            Zip / Post Code<br />
+            Country
+            </address>
+            <p class="phone">+1 (000) 000-0000</p>
+        </div>
+        
+        <div class="print-save">
+        	<ul>
+        		<li><a href="#" onclick="window.print(); return false;" class="print">Print a Hard Copy</a></li>
+            	<li><a href="#" class="download">Download in PDF format</a></li>
+            </ul>
+        </div>
+        
+        <div class="social-media">
+        	<p>Find me on...</p>
+            <ul>
+            	<li><a href="#" class="delicious">My Delicious Bookmarks</a></li>
+            	<li><a href="#" class="twitter">Twitter</a></li>
+            	<li><a href="#" class="facebook">Facebook Page</a></li>
+            	<li><a href="#" class="linkedin">My Linkedin Profile</a></li>
+            	<li><a href="#" class="flickr">My Flickr Images</a></li>
+            	<li><a href="#" class="stumbleupon">StumbleUpon</a></li>
+            	<li><a href="#" class="deviantart">DeviantArt</a></li>
+            </ul>
+            <div class="cleaner"></div>
+        </div>
+        
+    </div> 
+    <!-- SideBar End HERE -->
+    
+    <div class="cleaner"></div>   
+    </div>
+    	
+	</div>
+</body>
+
+
+<!-- Mirrored from www.pixelbuffet.com/demos/pinstripe-cv-resume/dark-pinstripe/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jan 2020 02:24:08 GMT -->
+</html>
